@@ -23,10 +23,10 @@ const OrdersPage = () => {
                 </Text>
                 <Line className="bg-green_300 h-[2px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] rounded-radius1 w-[100%]" />
               </Column>
-              <Text className="font-medium lg:ml-[37px] xl:ml-[42px] 2xl:ml-[48px] 3xl:ml-[57px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
+              <Text className="font-medium lg:ml-[45px] xl:ml-[52px] 2xl:ml-[59px] 3xl:ml-[70px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
                 Purchase items
               </Text>
-              <Text className="font-medium lg:ml-[35px] xl:ml-[40px] 2xl:ml-[46px] 3xl:ml-[55px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
+              <Text className="font-medium lg:ml-[27px] xl:ml-[31px] 2xl:ml-[35px] 3xl:ml-[42px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
                 Invoices
               </Text>
               <Text className="font-medium lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
