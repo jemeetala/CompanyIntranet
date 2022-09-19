@@ -6,36 +6,38 @@ const OrdersPage = () => {
   return (
     <>
       <Column className="bg-gray_100 font-inter items-center mx-[auto] lg:pb-[57px] xl:pb-[65px] 2xl:pb-[74px] 3xl:pb-[88px] w-[100%]">
-        <Row className="bg-gray_900_a2 items-center lg:p-[15px] xl:p-[17px] 2xl:p-[20px] 3xl:p-[24px] w-[100%]">
-          <Img
-            src="images/img_group.svg"
-            className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[51px] xl:ml-[58px] 2xl:ml-[66px] 3xl:ml-[79px] w-[10%]"
-            alt="Group"
-          />
-          <Row className="font-lato justify-center lg:ml-[140px] xl:ml-[161px] 2xl:ml-[181px] 3xl:ml-[217px] pt-[2px] rounded-radius1 w-[39%]">
-            <Text className="font-medium mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
-              Translator
-            </Text>
-            <Column className="items-center lg:ml-[17px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] rounded-radius1 w-[22%]">
-              <Text className="font-semibold lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-green_300 w-[auto]">
-                Purchase order
+        <header className="w-[100%]">
+          <Row className="bg-gray_900_a2 items-center lg:p-[15px] xl:p-[17px] 2xl:p-[20px] 3xl:p-[24px] w-[100%]">
+            <Img
+              src="images/img_group.svg"
+              className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:ml-[51px] xl:ml-[58px] 2xl:ml-[66px] 3xl:ml-[79px] w-[10%]"
+              alt="Group"
+            />
+            <Row className="font-lato justify-center lg:ml-[140px] xl:ml-[161px] 2xl:ml-[181px] 3xl:ml-[217px] pt-[2px] rounded-radius1 w-[47%]">
+              <Text className="font-medium mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
+                Translator
               </Text>
-              <Line className="bg-green_300 h-[2px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] rounded-radius1 w-[99%]" />
-            </Column>
-            <Text className="font-medium xl:ml-[10px] 2xl:ml-[12px] 3xl:ml-[14px] lg:ml-[9px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
-              Purchase items
-            </Text>
-            <Text className="font-medium 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
-              Invoices
-            </Text>
-            <Text className="font-medium 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
-              Ship Notices
+              <Column className="items-center lg:ml-[38px] xl:ml-[44px] 2xl:ml-[50px] 3xl:ml-[60px] rounded-radius1 w-[18%]">
+                <Text className="font-semibold lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-green_300 w-[auto]">
+                  Purchase order
+                </Text>
+                <Line className="bg-green_300 h-[2px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] rounded-radius1 w-[100%]" />
+              </Column>
+              <Text className="font-medium lg:ml-[37px] xl:ml-[42px] 2xl:ml-[48px] 3xl:ml-[57px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
+                Purchase items
+              </Text>
+              <Text className="font-medium lg:ml-[35px] xl:ml-[40px] 2xl:ml-[46px] 3xl:ml-[55px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
+                Invoices
+              </Text>
+              <Text className="font-medium lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] mt-[1px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_400 w-[auto]">
+                Ship Notices
+              </Text>
+            </Row>
+            <Text className="bg-green_300 flex font-bold items-center lg:ml-[189px] xl:ml-[217px] 2xl:ml-[244px] 3xl:ml-[292px] xl:px-[10px] 2xl:px-[12px] 3xl:px-[14px] lg:px-[9px] rounded-radius50 2xl:text-[10px] 3xl:text-[12px] lg:text-[7px] xl:text-[8px] text-white_A700 tracking-ls1 w-[40px]">
+              AP
             </Text>
           </Row>
-          <Text className="bg-green_300 flex font-bold items-center lg:ml-[280px] xl:ml-[321px] 2xl:ml-[361px] 3xl:ml-[433px] xl:px-[10px] 2xl:px-[12px] 3xl:px-[14px] lg:px-[9px] rounded-radius50 2xl:text-[10px] 3xl:text-[12px] lg:text-[7px] xl:text-[8px] text-white_A700 tracking-ls1 w-[40px]">
-            AP
-          </Text>
-        </Row>
+        </header>
         <Column className="font-lato items-center lg:mt-[38px] xl:mt-[44px] 2xl:mt-[50px] 3xl:mt-[60px] w-[88%]">
           <Row className="items-center justify-between rounded-radius6 w-[100%]">
             <Text className="font-bold lg:text-[18px] xl:text-[21px] 2xl:text-[24px] 3xl:text-[28px] text-bluegray_900 w-[auto]">
