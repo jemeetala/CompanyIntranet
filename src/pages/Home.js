@@ -12,10 +12,10 @@ const Home = () => {
       </p>
       <ul>
         <li>
-          <Link to="/shipnotices">Shipnotices</Link>
+          <Link to="/invoices">Invoices</Link>
         </li>
         <li>
-          <Link to="/invoices">Invoices</Link>
+          <Link to="/shipnotice">Shipnotice</Link>
         </li>
         <li>
           <Link to="/vender">Vender</Link>

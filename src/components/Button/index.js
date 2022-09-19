@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const shapes = { RoundedBorder6: "rounded-radius6" };
 const variants = { FillTeal400: "bg-teal_400 text-white_A700" };
 const sizes = {
-  sm: "lg:p-[12px] xl:p-[14px] p-[16px] 3xl:p-[19px]",
+  sm: "lg:p-[11px] xl:p-[13px] p-[15px] 3xl:p-[18px]",
   md: "lg:p-[15px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
 };
 
