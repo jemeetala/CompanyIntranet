@@ -1,6 +1,6 @@
 import { SelectBox } from "components";
 export default {
-  title: "jemee_s_application89/SelectBox",
+  title: "sapper/SelectBox",
   component: SelectBox,
   argTypes: {
     options: {

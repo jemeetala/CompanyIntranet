@@ -10,6 +10,7 @@ import { Stack } from "./Stack";
 import { Text } from "./Text";
 import { Button } from "./Button";
 import { Input } from "./Input";
+import { TextArea } from "./TextArea";
 import { SelectBox } from "./SelectBox";
 export {
   Column,
@@ -24,5 +25,6 @@ export {
   Text,
   Button,
   Input,
+  TextArea,
   SelectBox,
 };

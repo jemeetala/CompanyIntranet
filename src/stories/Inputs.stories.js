@@ -1,6 +1,6 @@
 import { Input } from "components";
 export default {
-  title: "jemee_s_application89/Input",
+  title: "sapper/Input",
   component: Input,
 };
 

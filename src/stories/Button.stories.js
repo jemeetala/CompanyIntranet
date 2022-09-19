@@ -1,6 +1,6 @@
 import { Button as ButtonComponent, Img } from "components";
 export default {
-  title: "jemee_s_application89/Buttons",
+  title: "sapper/Buttons",
   component: ButtonComponent,
   argTypes: {
     children: { control: "text" },
